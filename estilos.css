@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-xl{
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    height: 70px;
+}
+
+nav a{
+    color: blueviolet;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .col{
+    color: white;
+}
+
+tbody{
+    color: white;
+}
+
+thead{
+    color: white;
+}
+
+.imagen{
+    max-width:100%;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color:rgb(41, 41, 41) ;
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+    border-radius: 20px 20px 0px 0px;
+} 
+.modal-content{
+    background-color: rgb(126, 125, 125);
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+button{
+    background-color: blueviolet;
+}
